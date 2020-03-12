@@ -2,10 +2,10 @@ import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
-      XylophoneApp(),
+      Pianotiles(),
     );
 
-class XylophoneApp extends StatelessWidget {
+class Pianotiles extends StatelessWidget {
   void playSound(int soundNumber) {
     final player = AudioCache();
     player.play('note$soundNumber.wav');
